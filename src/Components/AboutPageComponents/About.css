@@ -1,0 +1,57 @@
+.about-div{
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-around;
+}
+
+.left {
+    float: left;
+}
+.right{
+    float: right;
+    width: 50%;
+}
+
+.about-title{
+    margin-top: 20%;
+}
+
+.about-para{
+    font-size: 20px;
+}
+
+.link-git{
+    color: var(--color-primary-400);
+}
+
+.me{
+    position: relative;
+    left: 15%;
+    width: 1000px;
+    margin-top: 10%;
+    border: 2px solid white;
+    border-radius: 5%;
+    padding: 5px;
+}
+
+.paragon-para{
+    position: relative;
+    left: 35%;
+    padding: 10px;
+}
+
+@media screen and (max-width: 800px) {
+    .about-div{
+        margin-left: 20px;
+        clear: both;
+        flex-direction: column;
+    }
+    .paragon-para{
+        left: 20px;
+    }
+    .me{
+        left: 5%;
+        width: 350px;
+    } 
+    
+}

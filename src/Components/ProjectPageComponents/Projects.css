@@ -1,0 +1,25 @@
+.proj-slider{
+    margin-top: 5%;
+    margin-left: 45%;
+}
+
+.proj-container{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+    padding: 5px;
+}
+
+.proj-text{
+    font-family: Serif;
+    font-size: 24px;
+}
+
+@media screen and (max-width: 800px){
+    .proj-slider{
+        margin-left: 80px;
+    }
+    .proj-text{
+        margin-right: 10%;
+    }
+}
